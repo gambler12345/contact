@@ -128,13 +128,21 @@ Einstellungen werden in `localStorage` gespeichert und können jederzeit über d
 
 ```
 contact/
-├── index.html        # Kontaktformular (Hauptseite)
-├── privacy.html      # Datenschutzerklärung
-├── cookies.html      # Cookie-Richtlinie
-├── style.css         # Vollständiges Design-System (CSS-Variablen, Dark-Mode-ready)
-├── script.js         # Cookie-Consent-Manager + Formular-Handler + Validierung
-├── LICENSE           # MIT
-└── .github/          # Community-Standards (Code of Conduct, Contributing, Security)
+├── index.html          # Kontaktformular (Hauptseite)
+├── README.md
+├── LICENSE             # MIT
+├── assets/
+│   ├── style.css       # Design-System (CSS-Variablen)
+│   └── script.js       # Cookie-Consent-Manager + Formular-Handler
+├── pages/
+│   ├── privacy.html    # Datenschutzerklärung
+│   └── cookies.html    # Cookie-Richtlinie
+└── .github/
+	├── CODE_OF_CONDUCT.md / CODE_OF_CONDUCT.de.md
+	├── CONTRIBUTING.md / CONTRIBUTING.de.md
+	├── SECURITY.md / SECURITY.de.md
+	├── SUPPORT.md / SUPPORT.de.md
+	└── ISSUE_TEMPLATE/
 ```
 
 ---
@@ -152,7 +160,7 @@ python -m http.server 8080
 
 Dann im Browser öffnen: `http://localhost:8080`
 
-> **Formulardaten:** Der Standard-Submit simuliert die Übertragung (`script.js → submitForm()`). Für echten Versand den `fetch`-Aufruf in `submitForm()` gegen einen eigenen Endpunkt austauschen.
+> **Formulardaten:** Der Standard-Submit simuliert die Übertragung (`assets/script.js → submitForm()`). Für echten Versand den `fetch`-Aufruf in `submitForm()` gegen einen eigenen Endpunkt austauschen.
 
 ---
 
