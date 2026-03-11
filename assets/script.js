@@ -130,6 +130,15 @@
         showCookieBanner();
       });
     }
+
+    var settingsTrigger2 = document.getElementById('cookie-settings-trigger-2');
+    if (settingsTrigger2) {
+      settingsTrigger2.addEventListener('click', function () {
+        var existing = getStoredConsent();
+        if (existing) applyConsentToCheckboxes(existing);
+        showCookieBanner();
+      });
+    }
   }
 
   /* ─────────────────────────────────────────
@@ -418,12 +427,21 @@
   }
 
   /* ─────────────────────────────────────────
-     7. INIT
+     7. FOOTER YEAR
+  ───────────────────────────────────────── */
+  function initFooterYear() {
+    var el = document.getElementById('footer-year');
+    if (el) el.textContent = new Date().getFullYear();
+  }
+
+  /* ─────────────────────────────────────────
+     8. INIT
   ───────────────────────────────────────── */
   document.addEventListener('DOMContentLoaded', function () {
     initCookieBanner();
     initContactForm();
     initFormProgress();
+    initFooterYear();
   });
 
 })();

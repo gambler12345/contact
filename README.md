@@ -284,6 +284,67 @@ Dann im Browser öffnen: `http://localhost:8080`
 
 ---
 
+## 🌐 GitHub Pages aktivieren
+
+Damit `https://gambler12345.github.io/contact` erreichbar ist, muss GitHub Pages **einmalig manuell** im Repository aktiviert werden:
+
+1. Repository-Seite auf GitHub aufrufen
+2. **Settings → Pages** öffnen
+3. Unter **Source** → **GitHub Actions** auswählen
+4. Speichern — der Deploy-Workflow läuft danach bei jedem Push auf `main` automatisch
+
+> **Ursache der 404-Meldung:** Solange GitHub Pages nicht aktiviert ist, liefert `https://gambler12345.github.io/contact` HTTP 404 — unabhängig davon, ob `index.html` vorhanden ist.
+
+---
+
+## 🔗 Custom Domain einrichten
+
+Statt `gambler12345.github.io/contact` kann eine eigene Domain (z. B. `contact.example.com`) verwendet werden.
+
+### Erlaubte Domain-Formate
+
+| Format | Beispiel | DNS-Typ |
+|---|---|---|
+| Subdomain | `contact.example.com` oder `www.example.com` | `CNAME`-Eintrag |
+| Apex-Domain | `example.com` | `A`-Einträge (IPv4) oder `AAAA` (IPv6) |
+
+**Regeln laut [GitHub-Dokumentation](https://docs.github.com/articles/troubleshooting-custom-domains/#github-repository-setup-errors):**
+- Nur **eine** Domain pro Repository
+- Domain muss **einzigartig** über alle GitHub Pages-Seiten sein
+- Keine Kombination aus Apex-Domain und Subdomain (außer `www`)
+- Keine Wildcard-Domains (`*.example.com`)
+
+### Schritt-für-Schritt
+
+#### Option A — Subdomain (empfohlen: `www.example.com` oder `contact.example.com`)
+
+1. Beim DNS-Anbieter einen `CNAME`-Eintrag anlegen:
+   ```
+   Hostname:  contact          (oder www)
+   Typ:       CNAME
+   Wert:      gambler12345.github.io
+   TTL:       3600
+   ```
+2. In GitHub: **Settings → Pages → Custom domain** → `contact.example.com` eintragen → Speichern
+3. Checkbox **Enforce HTTPS** aktivieren (erscheint nach DNS-Verifikation)
+
+#### Option B — Apex-Domain (`example.com`)
+
+1. Beim DNS-Anbieter vier `A`-Einträge für GitHub Pages anlegen:
+   ```
+   Hostname:  @   Typ: A   Wert: 185.199.108.153
+   Hostname:  @   Typ: A   Wert: 185.199.109.153
+   Hostname:  @   Typ: A   Wert: 185.199.110.153
+   Hostname:  @   Typ: A   Wert: 185.199.111.153
+   ```
+2. Optional: `www` per `CNAME` auf `gambler12345.github.io` zeigen lassen (GitHub leitet dann automatisch um)
+3. In GitHub: **Settings → Pages → Custom domain** → `example.com` eintragen → Speichern
+4. Checkbox **Enforce HTTPS** aktivieren
+
+> **Hinweis:** Da dieses Repository GitHub Actions zum Deployen nutzt, ist eine `CNAME`-Datei im Repository **nicht erforderlich** — die Custom Domain wird ausschließlich über die Repository-Einstellungen konfiguriert. Änderungen an der Domain können bis zu 24 Stunden (DNS-TTL) dauern.
+
+---
+
 ## 📜 Lizenz
 
 [MIT License](LICENSE) — © 2025 Muster GmbH · [contact@mustergmbh.de](mailto:contact@mustergmbh.de)
