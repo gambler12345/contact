@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cookie-Richtlinie – Welche Cookies wir verwenden und wie Sie Ihre Einstellungen verwalten." />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <title>Cookie-Richtlinie</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-banner-title" hidden>
+    <div class="cookie-banner__inner">
+      <div class="cookie-banner__header">
+        <span class="cookie-banner__icon" aria-hidden="true">🍪</span>
+        <h2 class="cookie-banner__title" id="cookie-banner-title">Cookie-Einstellungen</h2>
+      </div>
+      <div class="cookie-banner__body">
+        <p>Diese Website verwendet Cookies. Weitere Informationen finden Sie in unserer <a href="cookies.html">Cookie-Richtlinie</a>.</p>
+        <div class="cookie-categories" role="group" aria-label="Cookie-Kategorien">
+          <div class="cookie-category">
+            <label><input type="checkbox" id="cookie-cat-necessary" checked disabled />
+              <span><span class="cookie-category__name">Notwendig</span>
+              <span class="cookie-category__desc">Immer aktiv.</span></span></label>
+          </div>
+          <div class="cookie-category">
+            <label><input type="checkbox" id="cookie-cat-functional" />
+              <span><span class="cookie-category__name">Funktional</span>
+              <span class="cookie-category__desc">Spracheinstellungen.</span></span></label>
+          </div>
+          <div class="cookie-category">
+            <label><input type="checkbox" id="cookie-cat-analytics" />
+              <span><span class="cookie-category__name">Analyse</span>
+              <span class="cookie-category__desc">Nutzungsstatistiken.</span></span></label>
+          </div>
+          <div class="cookie-category">
+            <label><input type="checkbox" id="cookie-cat-marketing" />
+              <span><span class="cookie-category__name">Marketing</span>
+              <span class="cookie-category__desc">Werbung.</span></span></label>
+          </div>
+        </div>
+        <div class="cookie-banner__actions">
+          <button id="cookie-accept-all" class="btn btn--primary" type="button">Alle akzeptieren</button>
+          <button id="cookie-save-choices" class="btn btn--secondary" type="button">Auswahl speichern</button>
+          <button id="cookie-reject-non-essential" class="btn btn--secondary" type="button">Nur notwendige</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="Startseite">
+        <div class="site-header__logo-icon" aria-hidden="true">✉</div>
+        <span>Kontakt</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="index.html">Kontaktformular</a>
+        <a href="privacy.html">Datenschutz</a>
+        <a href="cookies.html" class="active" aria-current="page">Cookies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="static-page">
+
+      <h1>Cookie-Richtlinie</h1>
+      <p class="last-updated">
+        Stand: März 2026 &nbsp;|&nbsp;
+        <span class="badge badge--blue">ePrivacy</span>&nbsp;
+        <span class="badge badge--green">DSGVO</span>&nbsp;
+        <span class="badge badge--yellow">TDDDG</span>
+      </p>
+
+      <!-- Live-Einstellungen -->
+      <div class="highlight-box" style="margin-bottom:32px;">
+        <p>
+          <strong>Ihre aktuellen Cookie-Einstellungen anpassen:</strong>
+          Sie können Ihre Einwilligung jederzeit widerrufen oder ändern.
+        </p>
+        <div style="margin-top:12px;">
+          <button id="cookie-settings-trigger" class="btn btn--outline btn--sm" type="button">
+            🍪 Cookie-Einstellungen öffnen
+          </button>
+        </div>
+      </div>
+
+      <!-- Table of Contents -->
+      <nav class="toc" aria-label="Inhaltsverzeichnis">
+        <p class="toc__title">Inhaltsverzeichnis</p>
+        <ol>
+          <li><a href="#was-sind-cookies">Was sind Cookies?</a></li>
+          <li><a href="#welche-cookies">Welche Cookies verwenden wir?</a></li>
+          <li><a href="#cookie-tabelle">Cookie-Tabelle</a></li>
+          <li><a href="#consent">Einwilligung &amp; Rechtsgrundlage</a></li>
+          <li><a href="#browser-einstellungen">Browser-Einstellungen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ol>
+      </nav>
+
+      <!-- 1. Was sind Cookies? -->
+      <section id="was-sind-cookies">
+        <h2>1. Was sind Cookies?</h2>
+        <p>
+          Cookies sind kleine Textdateien, die beim Besuch einer Website von Ihrem Browser auf
+          Ihrem Endgerät gespeichert werden. Sie enthalten Informationen, die beim nächsten Besuch
+          der Website wieder abgerufen werden können. Neben klassischen Cookies setzen wir auch
+          <strong>localStorage</strong> und <strong>sessionStorage</strong> ein (ähnliche
+          Technologien im Sinne des § 25 TDDDG / Art. 5 Abs. 3 ePrivacy-Richtlinie).
+        </p>
+        <p>
+          Der Einsatz von Cookies, die nicht zwingend technisch notwendig sind, erfolgt
+          ausschließlich mit Ihrer ausdrücklichen Einwilligung gemäß:
+        </p>
+        <ul>
+          <li>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</li>
+          <li>§ 25 Abs. 1 TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz)</li>
+          <li>Art. 5 Abs. 3 ePrivacy-Richtlinie (2002/58/EG, geändert durch 2009/136/EG)</li>
+          <li>Empfehlungen des European Data Protection Board (EDPB) zu Cookie-Consent</li>
+        </ul>
+      </section>
+
+      <!-- 2. Welche Cookies -->
+      <section id="welche-cookies">
+        <h2>2. Welche Cookies verwenden wir?</h2>
+
+        <h3>Kategorie 1: Notwendige Cookies</h3>
+        <p>
+          Diese Cookies sind für den technischen Betrieb der Website unbedingt erforderlich.
+          Sie ermöglichen grundlegende Funktionen wie Sicherheit, Sitzungsverwaltung und
+          Speicherung Ihrer Cookie-Einwilligung. Diese Cookies werden gemäß § 25 Abs. 2 Nr. 2 TDDDG
+          ohne Einwilligung gesetzt.
+        </p>
+
+        <h3>Kategorie 2: Funktionale Cookies</h3>
+        <p>
+          Funktionale Cookies ermöglichen es der Website, Informationen zu speichern, die das
+          Verhalten oder das Erscheinungsbild der Website verändern, z.&nbsp;B. Sprachpräferenzen.
+          Diese Cookies werden nur mit Ihrer Einwilligung gesetzt.
+        </p>
+
+        <h3>Kategorie 3: Analyse-Cookies</h3>
+        <p>
+          Analyse-Cookies helfen uns, die Nutzung unserer Website zu verstehen. Die gewonnenen
+          Daten werden anonymisiert und helfen dabei, unsere Website zu verbessern. Diese Cookies
+          werden nur mit Ihrer Einwilligung gesetzt.
+          <strong>Hinweis: Derzeit sind keine Analyse-Cookies aktiv.</strong>
+        </p>
+
+        <h3>Kategorie 4: Marketing-Cookies</h3>
+        <p>
+          Marketing-Cookies werden verwendet, um Besuchern relevante Werbeanzeigen zu liefern.
+          Diese Cookies werden nur mit Ihrer Einwilligung gesetzt.
+          <strong>Hinweis: Derzeit sind keine Marketing-Cookies aktiv.</strong>
+        </p>
+      </section>
+
+      <!-- 3. Cookie-Tabelle -->
+      <section id="cookie-tabelle">
+        <h2>3. Cookie-Tabelle</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Typ</th>
+              <th>Kategorie</th>
+              <th>Zweck</th>
+              <th>Speicherdauer</th>
+              <th>Anbieter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>cookie_consent_v1</code></td>
+              <td>localStorage</td>
+              <td><span class="badge badge--green">Notwendig</span></td>
+              <td>Speicherung Ihrer Cookie-Einwilligungsentscheidung</td>
+              <td>12 Monate</td>
+              <td>Diese Website</td>
+            </tr>
+            <tr>
+              <td><code>cookie_consent_date</code></td>
+              <td>localStorage</td>
+              <td><span class="badge badge--green">Notwendig</span></td>
+              <td>Datum der erteilten Cookie-Einwilligung (Nachweis gem. Art. 7 DSGVO)</td>
+              <td>12 Monate</td>
+              <td>Diese Website</td>
+            </tr>
+            <tr>
+              <td>Sprach-Präferenz</td>
+              <td>localStorage</td>
+              <td><span class="badge badge--blue">Funktional</span></td>
+              <td>Speicherung der bevorzugten Sprache</td>
+              <td>12 Monate</td>
+              <td>Diese Website</td>
+            </tr>
+            <tr>
+              <td>Analyse-Cookies</td>
+              <td>–</td>
+              <td><span class="badge badge--yellow">Analyse</span></td>
+              <td>Derzeit nicht aktiv</td>
+              <td>–</td>
+              <td>–</td>
+            </tr>
+            <tr>
+              <td>Marketing-Cookies</td>
+              <td>–</td>
+              <td><span class="badge badge--yellow">Marketing</span></td>
+              <td>Derzeit nicht aktiv</td>
+              <td>–</td>
+              <td>–</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- 4. Einwilligung -->
+      <section id="consent">
+        <h2>4. Einwilligung &amp; Rechtsgrundlage</h2>
+        <p>
+          Beim erstmaligen Besuch unserer Website wird Ihnen ein Cookie-Banner angezeigt, über das
+          Sie Ihre Einwilligung zu den verschiedenen Cookie-Kategorien erteilen können. Ihre
+          Entscheidung wird lokal in Ihrem Browser gespeichert (<code>localStorage</code>).
+        </p>
+        <h3>Anforderungen an eine wirksame Einwilligung (Art. 4 Nr. 11, Art. 7 DSGVO)</h3>
+        <ul>
+          <li><strong>Freiwilligkeit:</strong> Die Nutzung der Website ist nicht von der Erteilung nicht-notwendiger Cookies abhängig.</li>
+          <li><strong>Informiertheit:</strong> Sie erhalten klare Informationen über jeden Cookie-Typ.</li>
+          <li><strong>Granularität:</strong> Sie können zwischen den Cookie-Kategorien differenzieren.</li>
+          <li><strong>Widerrufbarkeit:</strong> Sie können Ihre Einwilligung jederzeit über den Link „Cookie-Einstellungen" im Footer widerrufen.</li>
+          <li><strong>Keine vorausgefüllten Checkboxen:</strong> Nur notwendige Cookies sind standardmäßig aktiviert.</li>
+          <li><strong>Nachweis:</strong> Datum und Inhalt der Einwilligung werden gespeichert (Art. 7 Abs. 1 DSGVO).</li>
+        </ul>
+        <h3>Ablehnung und Widerruf</h3>
+        <p>
+          Sie können alle nicht-notwendigen Cookies über die Schaltfläche „Nur notwendige" im
+          Cookie-Banner ablehnen. Eine erteilte Einwilligung können Sie jederzeit über
+          „Cookie-Einstellungen" im Footer dieser Seite widerrufen.
+        </p>
+        <div style="margin-top:16px;">
+          <button id="cookie-settings-trigger-2" class="btn btn--outline btn--sm" type="button"
+                  onclick="document.getElementById('cookie-settings-trigger').click()">
+            Cookie-Einstellungen ändern
+          </button>
+        </div>
+      </section>
+
+      <!-- 5. Browser-Einstellungen -->
+      <section id="browser-einstellungen">
+        <h2>5. Browser-Einstellungen</h2>
+        <p>
+          Sie können die Speicherung von Cookies in Ihren Browser-Einstellungen deaktivieren oder
+          bereits gespeicherte Cookies löschen. Bitte beachten Sie, dass das Deaktivieren aller
+          Cookies die Funktionalität dieser Website einschränken kann.
+        </p>
+        <p>Anleitungen für gängige Browser:</p>
+        <ul>
+          <li>
+            <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">
+              Google Chrome
+            </a>
+          </li>
+          <li>
+            <a href="https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen" target="_blank" rel="noopener noreferrer">
+              Mozilla Firefox
+            </a>
+          </li>
+          <li>
+            <a href="https://support.apple.com/de-de/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">
+              Apple Safari
+            </a>
+          </li>
+          <li>
+            <a href="https://support.microsoft.com/de-de/windows/cookies-in-microsoft-edge-löschen-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer">
+              Microsoft Edge
+            </a>
+          </li>
+        </ul>
+        <p>
+          Für weitere Informationen und Opt-out-Möglichkeiten bei Analyse-Diensten besuchen Sie
+          bitte
+          <a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener noreferrer">www.youronlinechoices.eu</a>
+          (European Interactive Digital Advertising Alliance).
+        </p>
+      </section>
+
+      <!-- 6. Kontakt -->
+      <section id="kontakt">
+        <h2>6. Kontakt</h2>
+        <p>
+          Bei Fragen zu unserer Cookie-Richtlinie oder zur Geltendmachung Ihrer Rechte wenden Sie
+          sich bitte an:
+        </p>
+        <div class="highlight-box">
+          <p>
+            <strong>Datenschutzbeauftragter</strong><br />
+            Muster GmbH<br />
+            Musterstraße 1, 12345 Berlin<br />
+            E-Mail: <a href="mailto:datenschutz@beispiel.de">datenschutz@beispiel.de</a>
+          </p>
+        </div>
+        <p>
+          Weitere Informationen zur Verarbeitung Ihrer personenbezogenen Daten finden Sie in unserer
+          <a href="privacy.html">Datenschutzerklärung</a>.
+        </p>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">
+        © <span id="footer-year"></span> Muster GmbH. Alle Rechte vorbehalten.
+      </p>
+      <nav class="site-footer__links" aria-label="Footer-Navigation">
+        <a href="privacy.html">Datenschutzerklärung</a>
+        <a href="cookies.html">Cookie-Richtlinie</a>
+        <button id="cookie-settings-trigger" type="button" aria-label="Cookie-Einstellungen öffnen">
+          Cookie-Einstellungen
+        </button>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
