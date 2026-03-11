@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kontaktieren Sie uns – DSGVO-konformes Kontaktformular nach EU-Datenschutz, KI-Verordnung und globalen Cookie-Richtlinien." />
+  <meta name="robots" content="index, follow" />
+  <!-- Referrer-Policy: no tracking referrer leakage -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Content Security Policy: no inline styles/scripts from untrusted sources -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <title>Kontakt – Datenschutzkonformes Formular</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip to main content (Accessibility) -->
+  <a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+
+  <!-- ══════════════════════════════════════════
+       COOKIE CONSENT BANNER (DSGVO Art. 7, ePrivacy)
+  ══════════════════════════════════════════ -->
+  <div id="cookie-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-banner-title" hidden>
+    <div class="cookie-banner__inner">
+      <div class="cookie-banner__header">
+        <span class="cookie-banner__icon" aria-hidden="true">🍪</span>
+        <h2 class="cookie-banner__title" id="cookie-banner-title">Cookie-Einstellungen</h2>
+      </div>
+      <div class="cookie-banner__body">
+        <p>
+          Diese Website verwendet Cookies und ähnliche Technologien. Notwendige Cookies sind für den Betrieb
+          der Seite erforderlich und können nicht deaktiviert werden. Alle weiteren Cookies werden nur mit Ihrer
+          ausdrücklichen Einwilligung gesetzt (Art. 6 Abs. 1 lit. a DSGVO / ePrivacy-Richtlinie).
+          Weitere Informationen finden Sie in unserer
+          <a href="cookies.html">Cookie-Richtlinie</a> und <a href="privacy.html">Datenschutzerklärung</a>.
+        </p>
+        <!-- Cookie categories -->
+        <div class="cookie-categories" role="group" aria-label="Cookie-Kategorien">
+          <!-- Necessary (always on) -->
+          <div class="cookie-category">
+            <label>
+              <input type="checkbox" id="cookie-cat-necessary" name="cookie-cat-necessary"
+                     checked disabled aria-describedby="cookie-cat-necessary-desc" />
+              <span>
+                <span class="cookie-category__name">Notwendig</span>
+                <span class="cookie-category__desc" id="cookie-cat-necessary-desc">
+                  Session-Verwaltung, Sicherheit. Immer aktiv.
+                </span>
+              </span>
+            </label>
+          </div>
+          <!-- Functional -->
+          <div class="cookie-category">
+            <label>
+              <input type="checkbox" id="cookie-cat-functional" name="cookie-cat-functional"
+                     aria-describedby="cookie-cat-functional-desc" />
+              <span>
+                <span class="cookie-category__name">Funktional</span>
+                <span class="cookie-category__desc" id="cookie-cat-functional-desc">
+                  Spracheinstellungen, gespeicherte Formulardaten.
+                </span>
+              </span>
+            </label>
+          </div>
+          <!-- Analytics -->
+          <div class="cookie-category">
+            <label>
+              <input type="checkbox" id="cookie-cat-analytics" name="cookie-cat-analytics"
+                     aria-describedby="cookie-cat-analytics-desc" />
+              <span>
+                <span class="cookie-category__name">Analyse</span>
+                <span class="cookie-category__desc" id="cookie-cat-analytics-desc">
+                  Anonyme Nutzungsstatistiken zur Verbesserung der Website.
+                </span>
+              </span>
+            </label>
+          </div>
+          <!-- Marketing -->
+          <div class="cookie-category">
+            <label>
+              <input type="checkbox" id="cookie-cat-marketing" name="cookie-cat-marketing"
+                     aria-describedby="cookie-cat-marketing-desc" />
+              <span>
+                <span class="cookie-category__name">Marketing</span>
+                <span class="cookie-category__desc" id="cookie-cat-marketing-desc">
+                  Personalisierte Inhalte und Werbung (derzeit nicht aktiv).
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+        <!-- Actions -->
+        <div class="cookie-banner__actions">
+          <button id="cookie-accept-all" class="btn btn--primary" type="button">
+            Alle akzeptieren
+          </button>
+          <button id="cookie-save-choices" class="btn btn--secondary" type="button">
+            Auswahl speichern
+          </button>
+          <button id="cookie-reject-non-essential" class="btn btn--secondary" type="button">
+            Nur notwendige
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       HEADER
+  ══════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="Startseite – Kontaktformular">
+        <div class="site-header__logo-icon" aria-hidden="true">✉</div>
+        <span>Kontakt</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="index.html" class="active" aria-current="page">Kontaktformular</a>
+        <a href="privacy.html">Datenschutz</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <div class="page-hero" role="complementary" aria-label="Seiteneinführung">
+    <h1 class="page-hero__title">Schreiben Sie uns</h1>
+    <p class="page-hero__subtitle">
+      Datenschutzkonformes Kontaktformular – DSGVO, KI-Verordnung und globale Cookie-Richtlinien.
+    </p>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       MAIN
+  ══════════════════════════════════════════ -->
+  <main id="main-content">
+    <div class="container">
+      <div class="content-grid">
+
+        <!-- ── Contact Form ── -->
+        <section aria-labelledby="form-heading">
+          <h2 id="form-heading" class="card__title" style="margin-bottom:16px;">
+            Kontaktformular
+          </h2>
+
+          <!-- Compliance badges -->
+          <div class="compliance-badges" aria-label="Konformitätskennzeichnungen">
+            <span class="compliance-badge">✅ DSGVO-konform</span>
+            <span class="compliance-badge">✅ KI-Verordnung (EU 2024/1689)</span>
+            <span class="compliance-badge">✅ ePrivacy / Cookie-Richtlinie</span>
+          </div>
+
+          <!-- Success message -->
+          <div id="form-success" class="form-success" role="alert" aria-live="polite">
+            <span class="form-success__icon" aria-hidden="true">✅</span>
+            <div class="form-success__text">
+              <h3>Nachricht erfolgreich gesendet!</h3>
+              <p>Vielen Dank für Ihre Nachricht. Wir werden uns so schnell wie möglich bei Ihnen melden.</p>
+            </div>
+          </div>
+
+          <!-- Error message -->
+          <div id="form-error-msg" class="form-error-msg" role="alert" aria-live="assertive">
+            <span class="form-error-msg__icon" aria-hidden="true">❌</span>
+            <div class="form-error-msg__text">
+              <h3>Fehler beim Senden</h3>
+              <p>Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <form id="contact-form" class="contact-form" novalidate
+                  aria-label="Kontaktformular"
+                  data-protection="gdpr-compliant">
+
+              <!-- Progress Indicator (Accessibility + UX) -->
+              <div class="form-progress" aria-hidden="true">
+                <div class="form-progress__step"></div>
+                <div class="form-progress__step"></div>
+                <div class="form-progress__step"></div>
+              </div>
+
+              <!-- Section 1: Personal info -->
+              <fieldset data-section="1" style="border:none;padding:0;margin:0 0 4px;">
+                <legend class="form-label" style="float:left;width:100%;margin-bottom:12px;font-size:0.9rem;color:var(--color-text-muted);">
+                  1. Kontaktdaten
+                </legend>
+                <div class="form-row" style="clear:both;">
+                  <div class="form-group">
+                    <label class="form-label" for="first-name">
+                      Vorname <span class="required" aria-label="Pflichtfeld">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="first-name"
+                      name="first-name"
+                      class="form-control"
+                      placeholder="Max"
+                      autocomplete="given-name"
+                      data-required="text"
+                      aria-required="true"
+                      aria-describedby="first-name-error"
+                      maxlength="100"
+                    />
+                    <span class="form-error" id="first-name-error" role="alert"></span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="last-name">
+                      Nachname <span class="required" aria-label="Pflichtfeld">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="last-name"
+                      name="last-name"
+                      class="form-control"
+                      placeholder="Mustermann"
+                      autocomplete="family-name"
+                      data-required="text"
+                      aria-required="true"
+                      aria-describedby="last-name-error"
+                      maxlength="100"
+                    />
+                    <span class="form-error" id="last-name-error" role="alert"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">
+                    E-Mail-Adresse <span class="required" aria-label="Pflichtfeld">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="max.mustermann@beispiel.de"
+                    autocomplete="email"
+                    data-required="email"
+                    aria-required="true"
+                    aria-describedby="email-error email-hint"
+                    maxlength="254"
+                  />
+                  <span class="form-hint" id="email-hint">Wird ausschließlich zur Beantwortung Ihrer Anfrage verwendet.</span>
+                  <span class="form-error" id="email-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="phone">
+                    Telefon <span class="optional">(optional)</span>
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-control"
+                    placeholder="+49 30 12345678"
+                    autocomplete="tel"
+                    aria-describedby="phone-hint"
+                    maxlength="30"
+                  />
+                  <span class="form-hint" id="phone-hint">Nur angeben, wenn Sie telefonisch kontaktiert werden möchten.</span>
+                </div>
+              </fieldset>
+
+              <!-- Section 2: Message -->
+              <fieldset data-section="2" style="border:none;padding:0;margin:0 0 4px;">
+                <legend class="form-label" style="float:left;width:100%;margin-bottom:12px;font-size:0.9rem;color:var(--color-text-muted);">
+                  2. Ihre Anfrage
+                </legend>
+                <div class="form-group" style="clear:both;">
+                  <label class="form-label" for="subject">
+                    Betreff <span class="required" aria-label="Pflichtfeld">*</span>
+                  </label>
+                  <select
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    data-required="text"
+                    aria-required="true"
+                    aria-describedby="subject-error"
+                  >
+                    <option value="">– Bitte wählen –</option>
+                    <option value="general">Allgemeine Anfrage</option>
+                    <option value="support">Technischer Support</option>
+                    <option value="gdpr-request">Datenschutzanfrage (DSGVO)</option>
+                    <option value="delete-request">Löschantrag (Art. 17 DSGVO)</option>
+                    <option value="access-request">Auskunftsanfrage (Art. 15 DSGVO)</option>
+                    <option value="other">Sonstiges</option>
+                  </select>
+                  <span class="form-error" id="subject-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="message">
+                    Nachricht <span class="required" aria-label="Pflichtfeld">*</span>
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    rows="6"
+                    placeholder="Beschreiben Sie Ihr Anliegen …"
+                    data-required="message"
+                    aria-required="true"
+                    aria-describedby="message-error char-count"
+                    maxlength="2000"
+                  ></textarea>
+                  <div class="char-counter" id="char-count" aria-live="polite" aria-atomic="true">0 / 2000</div>
+                  <span class="form-error" id="message-error" role="alert"></span>
+                </div>
+              </fieldset>
+
+              <!-- Section 3: Consent -->
+              <fieldset data-section="3" style="border:none;padding:0;margin:0;">
+                <legend class="form-label" style="float:left;width:100%;margin-bottom:12px;font-size:0.9rem;color:var(--color-text-muted);">
+                  3. Einwilligungen &amp; Hinweise
+                </legend>
+
+                <!-- AI Act Notice -->
+                <div class="ai-act-notice" role="note" aria-label="Hinweis zur KI-Verordnung" style="clear:both;">
+                  <span class="ai-act-notice__icon" aria-hidden="true">🤖</span>
+                  <div class="ai-act-notice__content">
+                    <strong>Hinweis gemäß EU-KI-Verordnung (EU 2024/1689 – AI Act)</strong>
+                    Diese Website verwendet ein automatisiertes Spam-Erkennungssystem zur Prüfung eingehender
+                    Nachrichten. Das System trifft keine rechtlich relevanten Entscheidungen über Sie; es dient
+                    ausschließlich der Sicherheit und Betrugsabwehr. Gemäß Art. 13 AI Act informieren wir Sie
+                    transparent über diesen Einsatz. Nachrichten, die als Spam klassifiziert werden, werden
+                    nicht bearbeitet und nach spätestens 7 Tagen gelöscht.
+                  </div>
+                </div>
+
+                <!-- Consent checkboxes -->
+                <div class="consent-group">
+                  <!-- GDPR consent (required) -->
+                  <div class="consent-item">
+                    <input
+                      type="checkbox"
+                      id="consent-gdpr"
+                      name="consent-gdpr"
+                      aria-required="true"
+                      aria-describedby="consent-gdpr-error"
+                    />
+                    <label for="consent-gdpr">
+                      <span class="required">*</span>
+                      Ich habe die <a href="privacy.html" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>
+                      gelesen und stimme der Verarbeitung meiner personenbezogenen Daten zur Bearbeitung meiner
+                      Anfrage gemäß Art. 6 Abs. 1 lit. a DSGVO zu. Ich kann diese Einwilligung jederzeit mit
+                      Wirkung für die Zukunft widerrufen.
+                    </label>
+                  </div>
+                  <span class="form-error" id="consent-gdpr-error" role="alert"></span>
+
+                  <!-- AI processing consent (optional but informative) -->
+                  <div class="consent-item">
+                    <input
+                      type="checkbox"
+                      id="consent-ai"
+                      name="consent-ai"
+                      checked
+                    />
+                    <label for="consent-ai">
+                      Ich habe den Hinweis zur automatisierten Verarbeitung (Spam-Erkennung) gemäß
+                      EU-KI-Verordnung zur Kenntnis genommen.
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Data retention notice -->
+                <div class="form-hint" style="margin-bottom:24px;background:var(--color-bg);padding:10px 14px;border-radius:var(--radius-sm);border-left:3px solid var(--color-primary);">
+                  <strong>Datenspeicherung:</strong> Ihre Daten werden ausschließlich zur Bearbeitung Ihrer
+                  Anfrage verwendet und nach Abschluss der Kommunikation, spätestens jedoch nach 90 Tagen,
+                  gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
+                </div>
+
+                <!-- Submit button -->
+                <button
+                  type="submit"
+                  id="submit-btn"
+                  class="btn btn--primary btn--full"
+                  data-submit-btn
+                  aria-describedby="submit-hint"
+                >
+                  <span class="btn-text">Nachricht senden ✉</span>
+                  <span class="spinner" aria-hidden="true"></span>
+                </button>
+                <p class="form-hint" id="submit-hint" style="text-align:center;margin-top:10px;">
+                  <span aria-hidden="true">🔒</span>
+                  Ihre Daten werden verschlüsselt übertragen (TLS). Felder mit <span style="color:#dc2626;">*</span> sind Pflichtfelder.
+                </p>
+              </fieldset>
+
+            </form>
+          </div>
+        </section>
+
+        <!-- ── Sidebar: Info Cards ── -->
+        <aside aria-label="Datenschutz- und Compliance-Informationen">
+
+          <!-- Your rights -->
+          <div class="info-card">
+            <h2 class="info-card__title">
+              <span aria-hidden="true">⚖️</span> Ihre Rechte (DSGVO)
+            </h2>
+            <ul class="info-card__list" aria-label="DSGVO-Rechte">
+              <li><span class="icon" aria-hidden="true">📋</span> Auskunftsrecht (Art. 15)</li>
+              <li><span class="icon" aria-hidden="true">✏️</span> Recht auf Berichtigung (Art. 16)</li>
+              <li><span class="icon" aria-hidden="true">🗑️</span> Recht auf Löschung (Art. 17)</li>
+              <li><span class="icon" aria-hidden="true">⏸️</span> Recht auf Einschränkung (Art. 18)</li>
+              <li><span class="icon" aria-hidden="true">📦</span> Datenübertragbarkeit (Art. 20)</li>
+              <li><span class="icon" aria-hidden="true">🚫</span> Widerspruchsrecht (Art. 21)</li>
+            </ul>
+            <p style="font-size:0.8rem;color:var(--color-text-muted);margin-top:12px;">
+              Zur Geltendmachung Ihrer Rechte wählen Sie im Formular den Betreff
+              <em>„Datenschutzanfrage"</em> oder kontaktieren Sie unseren Datenschutzbeauftragten.
+            </p>
+          </div>
+
+          <!-- Data processing info -->
+          <div class="info-card">
+            <h2 class="info-card__title">
+              <span aria-hidden="true">🗄️</span> Datenverarbeitung
+            </h2>
+            <ul class="info-card__list">
+              <li><span class="icon" aria-hidden="true">📌</span> Zweck: Bearbeitung Ihrer Anfrage</li>
+              <li><span class="icon" aria-hidden="true">⚡</span> Rechtsgrundlage: Art. 6 I lit. a/b DSGVO</li>
+              <li><span class="icon" aria-hidden="true">⏱️</span> Speicherdauer: max. 90 Tage</li>
+              <li><span class="icon" aria-hidden="true">🌍</span> Übermittlung: nur innerhalb der EU/EWR</li>
+              <li><span class="icon" aria-hidden="true">🔐</span> Sicherheit: TLS-Verschlüsselung</li>
+            </ul>
+          </div>
+
+          <!-- AI Act info -->
+          <div class="info-card">
+            <h2 class="info-card__title">
+              <span aria-hidden="true">🤖</span> KI-Verordnung (AI Act)
+            </h2>
+            <ul class="info-card__list">
+              <li>
+                <span class="icon" aria-hidden="true">🔍</span>
+                <span>Automatische Spam-Erkennung (KI-System)</span>
+              </li>
+              <li>
+                <span class="icon" aria-hidden="true">⚠️</span>
+                <span>Risikoklasse: <span class="badge badge--green">Minimal-Risiko</span></span>
+              </li>
+              <li>
+                <span class="icon" aria-hidden="true">📢</span>
+                <span>Transparenz gemäß Art. 13 AI Act gewährleistet</span>
+              </li>
+              <li>
+                <span class="icon" aria-hidden="true">🧑</span>
+                <span>Kein vollautomatisierter Entscheid ohne menschl. Prüfung</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact DPO -->
+          <div class="info-card">
+            <h2 class="info-card__title">
+              <span aria-hidden="true">🏢</span> Verantwortlicher
+            </h2>
+            <p style="font-size:0.825rem;color:var(--color-text-muted);line-height:1.6;">
+              Muster GmbH<br />
+              Musterstraße 1, 12345 Berlin<br />
+              Deutschland<br />
+              <a href="mailto:datenschutz@beispiel.de">datenschutz@beispiel.de</a>
+            </p>
+            <p style="font-size:0.8rem;color:var(--color-text-muted);margin-top:8px;">
+              Aufsichtsbehörde: Berliner Beauftragte für Datenschutz und Informationsfreiheit
+              (<a href="https://www.datenschutz-berlin.de" target="_blank" rel="noopener noreferrer">datenschutz-berlin.de</a>)
+            </p>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">
+        © <span id="footer-year"></span> Muster GmbH. Alle Rechte vorbehalten.
+      </p>
+      <nav class="site-footer__links" aria-label="Footer-Navigation">
+        <a href="privacy.html">Datenschutzerklärung</a>
+        <a href="cookies.html">Cookie-Richtlinie</a>
+        <button id="cookie-settings-trigger" type="button" aria-label="Cookie-Einstellungen öffnen">
+          Cookie-Einstellungen
+        </button>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
