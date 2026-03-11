@@ -1,5 +1,23 @@
 <div align="center">
 
+## 📬 Kontaktformular jetzt öffnen
+
+[![Jetzt Nachricht senden](https://img.shields.io/badge/✉%20Jetzt%20Nachricht%20senden-1a56db?style=for-the-badge&logoColor=white)](https://gambler12345.github.io/contact)
+
+**[➜ Direkt zum Formular](https://gambler12345.github.io/contact)**
+
+_Kein Account · Keine Hürden · DSGVO-konform_
+
+<br/>
+
+[🔒 Datenschutzerklärung](https://gambler12345.github.io/contact/privacy) &nbsp;·&nbsp; [🍪 Cookie-Richtlinie](https://gambler12345.github.io/contact/cookies)
+
+</div>
+
+---
+
+<div align="center">
+
 # ✉ Contact UI
 
 **DSGVO-konformes Kontaktformular — vollständig interaktiv, barrierefrei und EU-compliant**
@@ -13,7 +31,7 @@
 
 ---
 
-## 🚀 Jetzt Kontakt aufnehmen
+## 🚀 Kontakt aufnehmen
 
 > **Direkter Weg:** Besuche die Live-Seite und fülle das Formular aus — kein Account, keine Hürden.
 
@@ -160,7 +178,7 @@ python -m http.server 8080
 
 Dann im Browser öffnen: `http://localhost:8080`
 
-> **Formulardaten:** Der Standard-Submit simuliert die Übertragung (`assets/script.js → submitForm()`). Für echten Versand den `fetch`-Aufruf in `submitForm()` gegen einen eigenen Endpunkt austauschen.
+> **Formular-Endpunkt konfigurieren:** Trage im `data-endpoint`-Attribut des `<form>`-Elements in `index.html` die URL deines Backend-Endpunkts ein (z. B. einen [Formspree](https://formspree.io)-Endpunkt oder eine eigene API). Das Formular sendet die Daten dann als echten `fetch`-Request an diesen Endpunkt.
 
 ---
 
