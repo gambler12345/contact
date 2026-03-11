@@ -95,6 +95,14 @@ Klicke auf den passenden Betreff — dein E-Mail-Programm öffnet sich mit einer
 
 ---
 
+### 💬 WhatsApp
+
+Schreiben Sie uns direkt über WhatsApp:
+
+[![WhatsApp öffnen](https://img.shields.io/badge/💬%20WhatsApp%20öffnen-25d366?style=for-the-badge&logoColor=white)](https://wa.me/491701234567)
+
+---
+
 ### 🐛 GitHub Issue (öffentliche Anfragen)
 
 Für Fehlerberichte, Feature-Wünsche und öffentliche Rückmeldungen:
@@ -132,6 +140,7 @@ Für Fehlerberichte, Feature-Wünsche und öffentliche Rückmeldungen:
 |---|---|
 | 📝 **Kontaktformular** | [gambler12345.github.io/contact](https://gambler12345.github.io/contact) |
 | 📧 **E-Mail** | [contact@mustergmbh.de](mailto:contact@mustergmbh.de) |
+| 💬 **WhatsApp** | [+49 170 1234567](https://wa.me/491701234567) |
 | 🐛 **GitHub Issue erstellen** | [Neue Anfrage öffnen](https://github.com/gambler12345/contact/issues/new/choose) |
 | 🔒 **Datenschutzerklärung** | [gambler12345.github.io/contact/privacy](https://gambler12345.github.io/contact/privacy) |
 | 🍪 **Cookie-Richtlinie** | [gambler12345.github.io/contact/cookies](https://gambler12345.github.io/contact/cookies) |

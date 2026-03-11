@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Seite nicht gefunden – Kehren Sie zum Kontaktformular zurück." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <title>404 – Seite nicht gefunden</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="Startseite – Kontaktformular">
+        <div class="site-header__logo-icon" aria-hidden="true">✉</div>
+        <span>Kontakt</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="index.html">Kontaktformular</a>
+        <a href="pages/privacy.html">Datenschutz</a>
+        <a href="pages/cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="error-page">
+    <div class="error-page__inner">
+      <div class="error-page__code" aria-hidden="true">404</div>
+      <h1 class="error-page__title">Seite nicht gefunden</h1>
+      <p class="error-page__desc">
+        Die gesuchte Seite existiert leider nicht oder wurde verschoben.<br />
+        Kehren Sie zur Startseite zurück, um das Kontaktformular zu nutzen.
+      </p>
+      <div class="error-page__actions">
+        <a href="index.html" class="btn btn--primary">
+          ✉ Zum Kontaktformular
+        </a>
+        <a href="index.html#contact-form" class="btn btn--secondary">
+          📝 Direkt zum Formular
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">
+        © <span id="footer-year"></span> Muster GmbH. Alle Rechte vorbehalten.
+      </p>
+      <nav class="site-footer__links" aria-label="Footer-Navigation">
+        <a href="pages/privacy.html">Datenschutzerklärung</a>
+        <a href="pages/cookies.html">Cookie-Richtlinie</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script></body>
+</html>

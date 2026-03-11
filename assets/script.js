@@ -267,7 +267,19 @@
 
     var endpoint = (form.getAttribute('data-endpoint') || '').trim();
     if (!endpoint) {
-      // No endpoint configured — show a configuration hint instead of silently failing.
+      // No endpoint configured — fall back to mailto so the visitor can still send a message.
+      var mailto = form.getAttribute('data-mailto') || '';
+      if (mailto) {
+        var subject = encodeURIComponent(payload.subject || 'Kontaktanfrage');
+        var body = encodeURIComponent(
+          'Von: ' + (payload['first-name'] || '') + ' ' + (payload['last-name'] || '') +
+          '\nE-Mail: ' + (payload['email'] || '') +
+          (payload['phone'] ? '\nTelefon: ' + payload['phone'] : '') +
+          '\n\n' + (payload['message'] || '')
+        );
+        window.location.href = 'mailto:' + mailto + '?subject=' + subject + '&body=' + body;
+        return Promise.resolve();
+      }
       return Promise.reject(new Error('no-endpoint'));
     }
 

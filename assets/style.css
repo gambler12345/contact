@@ -990,3 +990,60 @@ select.form-control {
   outline: 3px solid var(--color-primary);
   outline-offset: 2px;
 }
+
+/* ===== 404 Error Page ===== */
+.error-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+.error-page__inner {
+  text-align: center;
+  max-width: 480px;
+}
+
+.error-page__code {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.error-page__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.error-page__desc {
+  color: var(--color-text-muted);
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+
+.error-page__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== WhatsApp card ===== */
+.info-card__whatsapp-desc {
+  font-size: 0.825rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.info-card__phone-number {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+  text-align: center;
+}
