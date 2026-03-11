@@ -284,6 +284,19 @@ Dann im Browser öffnen: `http://localhost:8080`
 
 ---
 
+## 🌐 GitHub Pages aktivieren
+
+Damit `https://gambler12345.github.io/contact` erreichbar ist, muss GitHub Pages **einmalig manuell** im Repository aktiviert werden:
+
+1. Repository-Seite auf GitHub aufrufen
+2. **Settings → Pages** öffnen
+3. Unter **Source** → **GitHub Actions** auswählen
+4. Speichern — der Deploy-Workflow läuft danach bei jedem Push auf `main` automatisch
+
+> **Ursache der 404-Meldung:** Solange GitHub Pages nicht aktiviert ist, liefert `https://gambler12345.github.io/contact` HTTP 404 — unabhängig davon, ob `index.html` vorhanden ist.
+
+---
+
 ## 📜 Lizenz
 
 [MIT License](LICENSE) — © 2025 Muster GmbH · [contact@mustergmbh.de](mailto:contact@mustergmbh.de)
