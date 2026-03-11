@@ -16,6 +16,97 @@ _Kein Account · Keine Hürden · DSGVO-konform_
 
 ---
 
+<!-- ═══════════════════════════════════════════════════
+     VISITENKARTE (Demo-Daten)
+═══════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🪪 Visitenkarte
+
+<table>
+<tr>
+  <td align="left" valign="top" width="360">
+
+**Max Mustermann**<br/>
+Geschäftsführer · Muster GmbH
+
+---
+
+📍 Musterstraße 1, 12345 Berlin, Deutschland
+
+📞 [+49 30 12345678](tel:+493012345678)
+📱 [+49 170 1234567](tel:+491701234567)
+📧 [contact@mustergmbh.de](mailto:contact@mustergmbh.de)
+🌐 [gambler12345.github.io/contact](https://gambler12345.github.io/contact)
+
+🔗 [LinkedIn](https://linkedin.com/in/maxmustermann) &nbsp;·&nbsp; [GitHub @gambler12345](https://github.com/gambler12345)
+
+  </td>
+  <td align="center" valign="middle" width="180">
+
+[![vCard herunterladen](https://img.shields.io/badge/📇%20vCard-herunterladen-0a66c2?style=for-the-badge)](https://gambler12345.github.io/contact/contact.vcf)
+
+_Kontakt direkt ins<br/>Adressbuch importieren_
+
+  </td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════
+     SCHNELLKONTAKT — Eingabe & Senden je Kanal
+═══════════════════════════════════════════════════ -->
+
+## ✉ Schnellkontakt
+
+> Wähle deinen bevorzugten Kommunikationsweg und schreibe direkt los:
+
+<br/>
+
+### 📝 Kontaktformular (empfohlen)
+
+Fülle das vollständige, DSGVO-konforme Formular auf der Live-Seite aus:
+
+[![Formular öffnen](https://img.shields.io/badge/📝%20Formular%20öffnen-1a56db?style=for-the-badge&logoColor=white)](https://gambler12345.github.io/contact)
+&nbsp;
+[![Allgemeine Anfrage](https://img.shields.io/badge/Allgemeine%20Anfrage-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+&nbsp;
+[![Support](https://img.shields.io/badge/Technischer%20Support-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+&nbsp;
+[![Datenschutzanfrage](https://img.shields.io/badge/Datenschutzanfrage%20(DSGVO)-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+
+---
+
+### 📧 E-Mail direkt senden
+
+Klicke auf den passenden Betreff — dein E-Mail-Programm öffnet sich mit einer vorausgefüllten Nachricht:
+
+| Betreff | Aktion |
+|---|---|
+| Allgemeine Anfrage | [![E-Mail schreiben](https://img.shields.io/badge/📧%20E--Mail%20schreiben-ea4335?style=flat-square&logoColor=white)](mailto:contact@mustergmbh.de?subject=Allgemeine%20Anfrage&body=Guten%20Tag%2C%0A%0Aich%20m%C3%B6chte%20folgendes%20anfragen%3A%0A%0A%5BIhre%20Nachricht%20hier%5D%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen) |
+| Technischer Support | [![Support anfragen](https://img.shields.io/badge/📧%20Support%20anfragen-ea4335?style=flat-square&logoColor=white)](mailto:contact@mustergmbh.de?subject=Technischer%20Support&body=Guten%20Tag%2C%0A%0Aich%20ben%C3%B6tige%20Unterst%C3%BCtzung%20bei%20folgendem%20Problem%3A%0A%0A%5BBeschreibung%20des%20Problems%5D%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen) |
+| Datenschutzanfrage (DSGVO) | [![DSGVO-Anfrage](https://img.shields.io/badge/📧%20DSGVO--Anfrage-ea4335?style=flat-square&logoColor=white)](mailto:contact@mustergmbh.de?subject=Datenschutzanfrage%20(DSGVO)&body=Guten%20Tag%2C%0A%0Aich%20m%C3%B6chte%20folgendes%20Recht%20geltend%20machen%3A%0A%0A%5BArt.%2015%20Auskunft%20%2F%20Art.%2017%20L%C3%B6schung%20%2F%20Sonstiges%5D%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen) |
+| Löschantrag (Art. 17) | [![Löschantrag](https://img.shields.io/badge/📧%20L%C3%B6schantrag-ea4335?style=flat-square&logoColor=white)](mailto:contact@mustergmbh.de?subject=L%C3%B6schantrag%20Art.%2017%20DSGVO&body=Guten%20Tag%2C%0A%0Aich%20stelle%20hiermit%20einen%20L%C3%B6schantrag%20gem%C3%A4%C3%9F%20Art.%2017%20DSGVO%20f%C3%BCr%20folgende%20Daten%3A%0A%0A%5BBitte%20betroffene%20Daten%20beschreiben%5D%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen) |
+| Sonstiges | [![Sonstige Anfrage](https://img.shields.io/badge/📧%20Sonstige%20Anfrage-ea4335?style=flat-square&logoColor=white)](mailto:contact@mustergmbh.de?subject=Sonstige%20Anfrage&body=Guten%20Tag%2C%0A%0A%5BIhre%20Nachricht%5D%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen) |
+
+---
+
+### 🐛 GitHub Issue (öffentliche Anfragen)
+
+Für Fehlerberichte, Feature-Wünsche und öffentliche Rückmeldungen:
+
+| Typ | Aktion |
+|---|---|
+| Fehler melden | [![Bug melden](https://img.shields.io/badge/🐛%20Bug%20melden-d63031?style=flat-square)](https://github.com/gambler12345/contact/issues/new?template=bug_report.md) |
+| Feature-Wunsch | [![Feature anfragen](https://img.shields.io/badge/💡%20Feature%20anfragen-00b894?style=flat-square)](https://github.com/gambler12345/contact/issues/new?template=feature_request.md) |
+| Allgemeine Frage | [![Frage stellen](https://img.shields.io/badge/❓%20Frage%20stellen-6b7280?style=flat-square)](https://github.com/gambler12345/contact/issues/new) |
+
+---
+
 <div align="center">
 
 # ✉ Contact UI
@@ -33,17 +124,18 @@ _Kein Account · Keine Hürden · DSGVO-konform_
 
 ## 🚀 Kontakt aufnehmen
 
-> **Direkter Weg:** Besuche die Live-Seite und fülle das Formular aus — kein Account, keine Hürden.
+> **Alle Kanäle auf einen Blick** — Details und direkte Send-Aktionen stehen im [Schnellkontakt-Bereich](#-schnellkontakt) oben.
 
 <div align="center">
 
 | Kanal | Link |
 |---|---|
 | 📝 **Kontaktformular** | [gambler12345.github.io/contact](https://gambler12345.github.io/contact) |
-| 📧 **E-Mail** | [example@example.com](mailto:example@example.com) |
+| 📧 **E-Mail** | [contact@mustergmbh.de](mailto:contact@mustergmbh.de) |
 | 🐛 **GitHub Issue erstellen** | [Neue Anfrage öffnen](https://github.com/gambler12345/contact/issues/new/choose) |
 | 🔒 **Datenschutzerklärung** | [gambler12345.github.io/contact/privacy](https://gambler12345.github.io/contact/privacy) |
 | 🍪 **Cookie-Richtlinie** | [gambler12345.github.io/contact/cookies](https://gambler12345.github.io/contact/cookies) |
+| 📇 **vCard (Visitenkarte)** | [contact.vcf herunterladen](https://gambler12345.github.io/contact/contact.vcf) |
 
 </div>
 
@@ -147,6 +239,7 @@ Einstellungen werden in `localStorage` gespeichert und können jederzeit über d
 ```
 contact/
 ├── index.html          # Kontaktformular (Hauptseite)
+├── contact.vcf         # vCard / Visitenkarte (Download)
 ├── README.md
 ├── LICENSE             # MIT
 ├── assets/
@@ -184,7 +277,7 @@ Dann im Browser öffnen: `http://localhost:8080`
 
 ## 📜 Lizenz
 
-[MIT License](LICENSE) — © 2025 Muster GmbH
+[MIT License](LICENSE) — © 2025 Muster GmbH · [contact@mustergmbh.de](mailto:contact@mustergmbh.de)
 
 ---
 

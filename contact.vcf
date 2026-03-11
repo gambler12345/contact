@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Max Mustermann
+N:Mustermann;Max;;;
+ORG:Muster GmbH
+TITLE:Geschäftsführer
+ADR;TYPE=WORK:;;Musterstraße 1;Berlin;;12345;Deutschland
+TEL;TYPE=WORK,VOICE:+49 30 12345678
+TEL;TYPE=CELL:+49 170 1234567
+EMAIL;TYPE=INTERNET,WORK:contact@mustergmbh.de
+URL:https://gambler12345.github.io/contact
+X-SOCIALPROFILE;TYPE=github:https://github.com/gambler12345
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/maxmustermann
+NOTE:DSGVO-konformes Kontaktformular: https://gambler12345.github.io/contact
+REV:20250101T000000Z
+END:VCARD

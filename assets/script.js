@@ -237,7 +237,7 @@
           if (err && err.message === 'no-endpoint' && errorEl) {
             var textEl = errorEl.querySelector('.form-error-msg__text p');
             if (textEl) {
-              textEl.textContent = 'Kein Übermittlungsendpunkt konfiguriert. Bitte tragen Sie das data-endpoint-Attribut am Formular ein (z.\u00a0B. einen Formspree-Endpunkt).';
+              textEl.textContent = 'Kein Übermittlungsendpunkt konfiguriert. Bitte tragen Sie das data-endpoint-Attribut am Formular ein (z. B. einen Formspree-Endpunkt).';
             }
           }
           showElement(msgError);
