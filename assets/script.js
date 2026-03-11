@@ -223,7 +223,7 @@
       // Set loading state
       setLoading(submitBtn, true);
 
-      // Simulate async form submission (replace with real endpoint)
+      // Submit form data to the configured endpoint
       submitForm(form)
         .then(function () {
           form.reset();
@@ -232,7 +232,14 @@
           announceLiveRegion('Ihre Nachricht wurde erfolgreich gesendet.');
           window.scrollTo({ top: msgSuccess.offsetTop - 80, behavior: 'smooth' });
         })
-        .catch(function () {
+        .catch(function (err) {
+          var errorEl = document.getElementById('form-error-msg');
+          if (err && err.message === 'no-endpoint' && errorEl) {
+            var textEl = errorEl.querySelector('.form-error-msg__text p');
+            if (textEl) {
+              textEl.textContent = 'Kein Übermittlungsendpunkt konfiguriert. Bitte tragen Sie das data-endpoint-Attribut am Formular ein (z. B. einen Formspree-Endpunkt).';
+            }
+          }
           showElement(msgError);
           announceLiveRegion('Fehler beim Senden. Bitte versuchen Sie es erneut.');
         })
@@ -243,7 +250,10 @@
   }
 
   /**
-   * Submits the form data. Replace the fetch call with your actual endpoint.
+   * Submits the form data to the endpoint configured via the form's
+   * `data-endpoint` attribute (e.g. a Formspree URL or a custom API).
+   * Set `data-endpoint="https://formspree.io/f/YOUR_FORM_ID"` on the
+   * <form> element to enable real submission.
    */
   function submitForm(form) {
     var data = new FormData(form);
@@ -255,19 +265,18 @@
     // The backend should log these with appropriate access controls and
     // never expose them in client-facing responses or public logs.
 
-    /* ── Real endpoint: uncomment and configure ──
-    return fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    }).then(function(res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-    });
-    */
+    var endpoint = (form.getAttribute('data-endpoint') || '').trim();
+    if (!endpoint) {
+      // No endpoint configured — show a configuration hint instead of silently failing.
+      return Promise.reject(new Error('no-endpoint'));
+    }
 
-    // Demo: simulate 800 ms network delay then succeed
-    return new Promise(function (resolve) {
-      setTimeout(resolve, 800);
+    return fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
     });
   }
 
