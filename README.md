@@ -2,15 +2,15 @@
 
 ## 📬 Kontaktformular jetzt öffnen
 
-[![Jetzt Nachricht senden](https://img.shields.io/badge/✉%20Jetzt%20Nachricht%20senden-1a56db?style=for-the-badge&logoColor=white)](https://gambler12345.github.io/contact)
+[![Jetzt Nachricht senden](https://img.shields.io/badge/✉%20Jetzt%20Nachricht%20senden-1a56db?style=for-the-badge&logoColor=white)](https://github.pavlicsek.de)
 
-**[➜ Direkt zum Formular](https://gambler12345.github.io/contact)**
+**[➜ Direkt zum Formular](https://github.pavlicsek.de)**
 
 _Kein Account · Keine Hürden · DSGVO-konform_
 
 <br/>
 
-[🔒 Datenschutzerklärung](https://gambler12345.github.io/contact/privacy) &nbsp;·&nbsp; [🍪 Cookie-Richtlinie](https://gambler12345.github.io/contact/cookies)
+[🔒 Datenschutzerklärung](https://github.pavlicsek.de/pages/privacy.html) &nbsp;·&nbsp; [🍪 Cookie-Richtlinie](https://github.pavlicsek.de/pages/cookies.html)
 
 </div>
 
@@ -38,14 +38,14 @@ Geschäftsführer · Muster GmbH
 📞 [+49 30 12345678](tel:+493012345678)
 📱 [+49 170 1234567](tel:+491701234567)
 📧 [contact@mustergmbh.de](mailto:contact@mustergmbh.de)
-🌐 [gambler12345.github.io/contact](https://gambler12345.github.io/contact)
+🌐 [github.pavlicsek.de](https://github.pavlicsek.de)
 
 🔗 [LinkedIn](https://linkedin.com/in/maxmustermann) &nbsp;·&nbsp; [GitHub @gambler12345](https://github.com/gambler12345)
 
   </td>
   <td align="center" valign="middle" width="180">
 
-[![vCard herunterladen](https://img.shields.io/badge/📇%20vCard-herunterladen-0a66c2?style=for-the-badge)](https://gambler12345.github.io/contact/contact.vcf)
+[![vCard herunterladen](https://img.shields.io/badge/📇%20vCard-herunterladen-0a66c2?style=for-the-badge)](https://github.pavlicsek.de/contact.vcf)
 
 _Kontakt direkt ins<br/>Adressbuch importieren_
 
@@ -71,13 +71,13 @@ _Kontakt direkt ins<br/>Adressbuch importieren_
 
 Fülle das vollständige, DSGVO-konforme Formular auf der Live-Seite aus:
 
-[![Formular öffnen](https://img.shields.io/badge/📝%20Formular%20öffnen-1a56db?style=for-the-badge&logoColor=white)](https://gambler12345.github.io/contact)
+[![Formular öffnen](https://img.shields.io/badge/📝%20Formular%20öffnen-1a56db?style=for-the-badge&logoColor=white)](https://github.pavlicsek.de)
 &nbsp;
-[![Allgemeine Anfrage](https://img.shields.io/badge/Allgemeine%20Anfrage-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+[![Allgemeine Anfrage](https://img.shields.io/badge/Allgemeine%20Anfrage-6b7280?style=flat-square)](https://github.pavlicsek.de#contact-form)
 &nbsp;
-[![Support](https://img.shields.io/badge/Technischer%20Support-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+[![Support](https://img.shields.io/badge/Technischer%20Support-6b7280?style=flat-square)](https://github.pavlicsek.de#contact-form)
 &nbsp;
-[![Datenschutzanfrage](https://img.shields.io/badge/Datenschutzanfrage%20(DSGVO)-6b7280?style=flat-square)](https://gambler12345.github.io/contact#contact-form)
+[![Datenschutzanfrage](https://img.shields.io/badge/Datenschutzanfrage%20(DSGVO)-6b7280?style=flat-square)](https://github.pavlicsek.de#contact-form)
 
 ---
 
@@ -121,9 +121,9 @@ Für Fehlerberichte, Feature-Wünsche und öffentliche Rückmeldungen:
 
 **DSGVO-konformes Kontaktformular — vollständig interaktiv, barrierefrei und EU-compliant**
 
-[![Live-Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://gambler12345.github.io/contact)
-[![DSGVO](https://img.shields.io/badge/DSGVO-konform-green?style=for-the-badge)](https://gambler12345.github.io/contact/privacy)
-[![AI Act](https://img.shields.io/badge/EU%20AI%20Act%202024%2F1689-konform-green?style=for-the-badge)](https://gambler12345.github.io/contact)
+[![Live-Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://github.pavlicsek.de)
+[![DSGVO](https://img.shields.io/badge/DSGVO-konform-green?style=for-the-badge)](https://github.pavlicsek.de/pages/privacy.html)
+[![AI Act](https://img.shields.io/badge/EU%20AI%20Act%202024%2F1689-konform-green?style=for-the-badge)](https://github.pavlicsek.de)
 [![Lizenz: MIT](https://img.shields.io/badge/Lizenz-MIT-yellow?style=for-the-badge)](LICENSE)
 
 </div>
@@ -138,13 +138,13 @@ Für Fehlerberichte, Feature-Wünsche und öffentliche Rückmeldungen:
 
 | Kanal | Link |
 |---|---|
-| 📝 **Kontaktformular** | [gambler12345.github.io/contact](https://gambler12345.github.io/contact) |
+| 📝 **Kontaktformular** | [github.pavlicsek.de](https://github.pavlicsek.de) |
 | 📧 **E-Mail** | [contact@mustergmbh.de](mailto:contact@mustergmbh.de) |
 | 💬 **WhatsApp** | [+49 170 1234567](https://wa.me/491701234567) |
 | 🐛 **GitHub Issue erstellen** | [Neue Anfrage öffnen](https://github.com/gambler12345/contact/issues/new/choose) |
-| 🔒 **Datenschutzerklärung** | [gambler12345.github.io/contact/privacy](https://gambler12345.github.io/contact/privacy) |
-| 🍪 **Cookie-Richtlinie** | [gambler12345.github.io/contact/cookies](https://gambler12345.github.io/contact/cookies) |
-| 📇 **vCard (Visitenkarte)** | [contact.vcf herunterladen](https://gambler12345.github.io/contact/contact.vcf) |
+| 🔒 **Datenschutzerklärung** | [github.pavlicsek.de/pages/privacy.html](https://github.pavlicsek.de/pages/privacy.html) |
+| 🍪 **Cookie-Richtlinie** | [github.pavlicsek.de/pages/cookies.html](https://github.pavlicsek.de/pages/cookies.html) |
+| 📇 **vCard (Visitenkarte)** | [contact.vcf herunterladen](https://github.pavlicsek.de/contact.vcf) |
 
 </div>
 
@@ -249,6 +249,7 @@ Einstellungen werden in `localStorage` gespeichert und können jederzeit über d
 contact/
 ├── index.html          # Kontaktformular (Hauptseite)
 ├── contact.vcf         # vCard / Visitenkarte (Download)
+├── CNAME               # GitHub Pages Custom Domain: github.pavlicsek.de
 ├── README.md
 ├── LICENSE             # MIT
 ├── assets/
@@ -280,6 +281,10 @@ python -m http.server 8080
 
 Dann im Browser öffnen: `http://localhost:8080`
 
+> **Live-URL (Custom Domain):** Die Seite ist unter **[https://github.pavlicsek.de](https://github.pavlicsek.de)** erreichbar.  
+> Die Custom Domain wird über die `CNAME`-Datei im Repo-Root konfiguriert (`github.pavlicsek.de`).  
+> DNS-Eintrag: `CNAME github.pavlicsek.de → gambler12345.github.io` erforderlich.
+
 > **Formular-Endpunkt konfigurieren:** Trage im `data-endpoint`-Attribut des `<form>`-Elements in `index.html` die URL deines Backend-Endpunkts ein (z. B. einen [Formspree](https://formspree.io)-Endpunkt oder eine eigene API). Das Formular sendet die Daten dann als echten `fetch`-Request an diesen Endpunkt.
 
 ---
@@ -295,7 +300,7 @@ Dann im Browser öffnen: `http://localhost:8080`
 **Fragen, Fehler oder Verbesserungsvorschläge?**
 
 [![Issue erstellen](https://img.shields.io/badge/Issue%20erstellen-GitHub-black?style=for-the-badge&logo=github)](https://github.com/gambler12345/contact/issues/new/choose)
-[![Live-Demo öffnen](https://img.shields.io/badge/Live%20Demo%20öffnen-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://gambler12345.github.io/contact)
+[![Live-Demo öffnen](https://img.shields.io/badge/Live%20Demo%20öffnen-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.pavlicsek.de)
 
 </div>
 
