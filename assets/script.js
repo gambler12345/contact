@@ -273,9 +273,9 @@
         var subject = encodeURIComponent(payload.subject || 'Kontaktanfrage');
         var body = encodeURIComponent(
           'Von: ' + (payload['first-name'] || '') + ' ' + (payload['last-name'] || '') +
-          '\nE-Mail: ' + (payload.email || '') +
-          (payload.phone ? '\nTelefon: ' + payload.phone : '') +
-          '\n\n' + (payload.message || '')
+          '\nE-Mail: ' + (payload['email'] || '') +
+          (payload['phone'] ? '\nTelefon: ' + payload['phone'] : '') +
+          '\n\n' + (payload['message'] || '')
         );
         window.location.href = 'mailto:' + mailto + '?subject=' + subject + '&body=' + body;
         return Promise.resolve();
